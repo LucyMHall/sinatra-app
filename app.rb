@@ -1,10 +1,14 @@
 require 'sinatra'
 
 get '/cat' do
-  "<h1>
-  hello cat
+  "
+  <h1>
+    hello cat
   </h1>
-  <img src='http://bit.ly/1eze8aE'>"
+  <div>
+    <img src='http://bit.ly/1eze8aE'>
+  </div>
+  "
 end
 
 get '/secret' do
